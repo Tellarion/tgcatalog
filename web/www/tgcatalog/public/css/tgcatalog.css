@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header .logoLabel {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #000;
+}
+
+header .nav li a {
+    color: #9e9e9e;
+}
+
+header .nav li a:hover {
+    color: #000;
+}
+
+.text-small {
+    font-size: 85%;
+}
+
+section .categoryList {
+
+}
+
+section .categoryList ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section .categoryList ul li {
+    display: flex;
+    background-color: #9e9e9e;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+section .categoryList ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.ginfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ginfo .photo {
+    text-align: center;
+}
+
+.ginfo .photo img {
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+}
+
+.ginfo .about {
+    margin: 10px 0px 10px;
+}
+
+.ginfo .name, .ginfo .subs {
+    
+}
+
+a {
+    color: #181818;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+a:hover {
+    color: #181818;
+    opacity: 1;
+}
